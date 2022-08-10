@@ -46,7 +46,7 @@ I used [geojson.io](https://geojson.io/) to create the [point and line data](./p
 
 ## Add content
 
-Add images, videos and text as part of [index.html](./src/index.html) file.
+Add images, videos and text as part of [index.html](./index.html) file.
 
 Each section can be connected with an action on the map like filtering features, zooming to a certain extent etc.
 
