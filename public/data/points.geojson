@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "User Conference"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.16253757476805, 32.70692784072598]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coronado Island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.17227935791016, 32.69862194228112]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hollywood Bowl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.33919048309325, 34.112266464282456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Griffith Observatory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.30036282539369, 34.11830213572757]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Walk of Fame"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.34133625030519, 34.10149978240744]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Monica beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.50128173828125, 34.01396527491264]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laguna beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.78901040554047, 33.542879085291695]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zuma beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.83293151855469, 34.02328477994364]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Barbara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.68836307525635, 34.41161866902195]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pismo beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.63520431518553, 35.12103184646136]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Andrew Molera State Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.84026718139648, 36.27171519272207]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "beautiful beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.84099406003952, 36.26344445809449]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carmel by the Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.92798614501953, 36.55018988289534]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muir Woods National Monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.58235931396484, 37.896530447543]
+      }
+    }
+  ]
+}
