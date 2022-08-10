@@ -1,21 +1,58 @@
-# ArcGIS API for JavaScript template
+# Map your holiday - EuroCarto 2022 Workshop
 
-## Prerequisites
+## Workshop Prerequisites
 
-* Node.js 16.0+
+- Node.js 16.0+ - [Installation](https://nodejs.org/en/)
+- [VSCode](https://code.visualstudio.com/)
+- git - [Installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-## Run project locally
+## Set up project locally
 
-To start:
+In the command line (tip - I use [Hyper](https://hyper.is/) and I love it):
+
+Clone the project:
 
 ```
+git clone git@github.com:RalucaNicola/tutorial-holiday-map.git
+```
+
+Go to the newly created folder and install dependency libraries:
+
+```
+cd tutorial-holiday-map
 npm install
+```
+
+To start a local server with the project:
+
+```
 npm run dev
 ```
 
 Then open your browser at http://localhost:3000/
 
-## Create productive build
+## Set up the map
+
+To create the map you'll need an [ArcGIS developer account](https://developers.arcgis.com/). Once you created it and confirmed your email address, you can use it to create a webmap:
+
+- Go to [ArcGIS Online](https://www.arcgis.com/index.html) and login with the account you created.
+- Click on Map and choose a basemap. Save the webmap and load it in the application using your ID
+
+Note: If you'd like to create a custom vector tile basemap, you can do it with the [Vector Tile Styler](https://developers.arcgis.com/vector-tile-style-editor/)
+
+## Create the data
+
+I used [geojson.io](https://geojson.io/) to create the [point and line data](./public/data/) for this project.
+
+## Add content
+
+Add images, videos and text as part of [index.html](./src/index.html) file.
+
+Each section can be connected with an action on the map like filtering features, zooming to a certain extent etc.
+
+Once you are happy with your map you can create a production build and deploy it to [GitHub Pages](https://pages.github.com/).
+
+## Create production build
 
 ```
 npm run build
@@ -36,7 +73,7 @@ If you only copied the `main` branch, follow these steps to create an orphan `gh
 ```
 rm -rf dist
 git checkout --orphan gh-pages
-git rm -rf . 
+git rm -rf .
 git commit --allow-empty -m "Init empty branch"
 git push origin gh-pages
 ```
