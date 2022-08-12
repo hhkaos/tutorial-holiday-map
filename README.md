@@ -33,12 +33,19 @@ Then open your browser at http://localhost:3000/
 
 ## Set up the map
 
-To create the map you'll need an [ArcGIS developer account](https://developers.arcgis.com/). Once you created it and confirmed your email address, you can use it to create a webmap:
+To create the map you'll need a free [ArcGIS Developer account](https://developers.arcgis.com/sign-up). Once you created it and confirmed your email address, you can use it to create a web map:
 
-- Go to [ArcGIS Online](https://www.arcgis.com/index.html) and login with the account you created.
-- Click on Map and choose a basemap. Save the webmap and load it in the application using your ID
+1. Go to the [ArcGIS Map Viewer](https://www.arcgis.com/apps/mapviewer/index.html) and login with the account you created.
+2. Activate the "Basemap" selection tool.
+3. Choose a basemap.
+4. Save the web map.
+5. Copy the ID.
+6. Share it (Choose: "Everyone (public)").
+7. Load it in the application using your ID.
 
-Note: If you'd like to create a custom vector tile basemap, you can do it with the [Vector Tile Styler](https://developers.arcgis.com/vector-tile-style-editor/)
+![Steps to create a web map](./public/assets/steps-to-create-a-webmap.png)
+
+Note: If you'd like to create a custom vector tile basemap, you can do it with the [Vector Tile Style Editor](https://developers.arcgis.com/vector-tile-style-editor/)
 
 ## Create the data
 
